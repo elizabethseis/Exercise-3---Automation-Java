@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43636" started-at="2019-04-01T16:51:45Z" finished-at="2019-04-01T16:52:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43636" started-at="2019-04-01T16:51:45Z" finished-at="2019-04-01T16:52:29Z">
+      <class name="Test.TestExecution">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="OpenBrowser" is-config="true" duration-ms="10835" started-at="2019-04-01T10:51:45Z" finished-at="2019-04-01T10:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:Test.TestExecution@1e127982]" name="Logintest" duration-ms="4627" started-at="2019-04-01T10:51:56Z" finished-at="2019-04-01T10:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="Searchtest()[pri:0, instance:Test.TestExecution@1e127982]" name="Searchtest" duration-ms="12235" started-at="2019-04-01T10:52:01Z" finished-at="2019-04-01T10:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchtest -->
+        <test-method status="PASS" signature="CartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="CartTest" duration-ms="30" started-at="2019-04-01T10:52:13Z" finished-at="2019-04-01T10:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartTest -->
+        <test-method status="PASS" signature="SearchAnotherProductTest()[pri:0, instance:Test.TestExecution@1e127982]" name="SearchAnotherProductTest" duration-ms="11023" started-at="2019-04-01T10:52:13Z" finished-at="2019-04-01T10:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAnotherProductTest -->
+        <test-method status="PASS" signature="DeleteCartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="DeleteCartTest" duration-ms="2554" started-at="2019-04-01T10:52:24Z" finished-at="2019-04-01T10:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCartTest -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="CloseBrowser" is-config="true" duration-ms="2314" started-at="2019-04-01T10:52:27Z" finished-at="2019-04-01T10:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Test.TestExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
