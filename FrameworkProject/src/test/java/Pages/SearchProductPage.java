@@ -18,12 +18,10 @@ public class SearchProductPage {
 	
 	@FindBy(xpath="//input[@value='Ir']")
 	WebElement BtnSearch;
-	
-	@FindBy (xpath = "//body[@class='a-m-mx a-aui_149818-c a-aui_152852-c a-aui_157141-c a-aui_158613-c a-aui_160684-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_v2_180836-c a-aui_ux_113788-c a-aui_ux_114039-c a-aui_ux_145937-c a-aui_ux_60000-c a-meter-animate']/div/div/div[@class='sg-row']/div[@class='sg-col-20-of-24 sg-col-28-of-32 sg-col-16-of-20 sg-col s-right-column sg-col-32-of-36 sg-col-8-of-12 sg-col-12-of-16 sg-col-24-of-28']/div[@class='sg-col-inner']/span[@class='rush-component s-latency-cf-section']/div[@class='s-result-list sg-row']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/span[2]/span[2]\r\n") 
-			WebElement Price;
 
-	@FindBy (xpath = "//body[@class='a-m-mx a-aui_149818-c a-aui_152852-c a-aui_157141-c a-aui_158613-c a-aui_160684-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_v2_180836-c a-aui_ux_113788-c a-aui_ux_114039-c a-aui_ux_145937-c a-aui_ux_60000-c a-meter-animate']/div/div/div[@class='sg-row']/div[@class='sg-col-20-of-24 sg-col-28-of-32 sg-col-16-of-20 sg-col s-right-column sg-col-32-of-36 sg-col-8-of-12 sg-col-12-of-16 sg-col-24-of-28']/div[@class='sg-col-inner']/span[@class='rush-component s-latency-cf-section']/div[@class='s-result-list sg-row']/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/span[1]/span[2]/span[3]") 
-	WebElement PriceFraction;
+	@FindBy (className="a-price-whole") WebElement Price;
+
+	@FindBy (className="a-price-fraction") WebElement PriceFraction;
 	
 	@FindBy(xpath="//span[contains(text(),'Samsung Galaxy S9 64GB Desbloqueado Negro Medianoc')]")
 	WebElement ProductSelected;
@@ -46,7 +44,9 @@ public class SearchProductPage {
 		TxtSearch.sendKeys("Samsung Galaxy S9 64GB");
 		BtnSearch.click();
 		PriceSelected=Price.getText();
+		System.out.println("Price Selected: " + PriceSelected );
 		WholeP=PriceFraction.getText();
+		System.out.println("Price Fraction: " + WholeP );
 		WholePrice= "$"+PriceSelected+"."+WholeP;
 		System.out.println("Price Selected: " + WholePrice );
 		ProductSelected.click();

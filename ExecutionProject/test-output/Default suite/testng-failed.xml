@@ -6,8 +6,11 @@
       <class name="Test.TestExecution">
         <methods>
           <include name="Searchtest"/>
+          <include name="CartTest"/>
+          <include name="DeleteCartTest"/>
           <include name="CloseBrowser"/>
           <include name="OpenBrowser"/>
+          <include name="SearchAnotherProductTest"/>
         </methods>
       </class> <!-- Test.TestExecution -->
     </classes>

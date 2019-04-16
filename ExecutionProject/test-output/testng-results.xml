@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43636" started-at="2019-04-01T16:51:45Z" finished-at="2019-04-01T16:52:29Z">
+  <suite name="Default suite" duration-ms="53211" started-at="2019-04-16T20:09:44Z" finished-at="2019-04-16T20:10:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43636" started-at="2019-04-01T16:51:45Z" finished-at="2019-04-01T16:52:29Z">
+    <test name="Default test" duration-ms="53211" started-at="2019-04-16T20:09:44Z" finished-at="2019-04-16T20:10:38Z">
       <class name="Test.TestExecution">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="OpenBrowser" is-config="true" duration-ms="10835" started-at="2019-04-01T10:51:45Z" finished-at="2019-04-01T10:51:56Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="OpenBrowser" is-config="true" duration-ms="15484" started-at="2019-04-16T15:09:44Z" finished-at="2019-04-16T15:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:Test.TestExecution@1e127982]" name="Logintest" duration-ms="4627" started-at="2019-04-01T10:51:56Z" finished-at="2019-04-01T10:52:01Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:Test.TestExecution@1e127982]" name="Logintest" duration-ms="6406" started-at="2019-04-16T15:10:00Z" finished-at="2019-04-16T15:10:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="Searchtest()[pri:0, instance:Test.TestExecution@1e127982]" name="Searchtest" duration-ms="12235" started-at="2019-04-01T10:52:01Z" finished-at="2019-04-01T10:52:13Z">
+        <test-method status="PASS" signature="Searchtest()[pri:0, instance:Test.TestExecution@1e127982]" name="Searchtest" duration-ms="14604" started-at="2019-04-16T15:10:06Z" finished-at="2019-04-16T15:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searchtest -->
-        <test-method status="PASS" signature="CartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="CartTest" duration-ms="30" started-at="2019-04-01T10:52:13Z" finished-at="2019-04-01T10:52:13Z">
+        <test-method status="PASS" signature="CartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="CartTest" duration-ms="31" started-at="2019-04-16T15:10:21Z" finished-at="2019-04-16T15:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartTest -->
-        <test-method status="PASS" signature="SearchAnotherProductTest()[pri:0, instance:Test.TestExecution@1e127982]" name="SearchAnotherProductTest" duration-ms="11023" started-at="2019-04-01T10:52:13Z" finished-at="2019-04-01T10:52:24Z">
+        <test-method status="PASS" signature="SearchAnotherProductTest()[pri:0, instance:Test.TestExecution@1e127982]" name="SearchAnotherProductTest" duration-ms="10758" started-at="2019-04-16T15:10:21Z" finished-at="2019-04-16T15:10:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAnotherProductTest -->
-        <test-method status="PASS" signature="DeleteCartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="DeleteCartTest" duration-ms="2554" started-at="2019-04-01T10:52:24Z" finished-at="2019-04-01T10:52:27Z">
+        <test-method status="PASS" signature="DeleteCartTest()[pri:0, instance:Test.TestExecution@1e127982]" name="DeleteCartTest" duration-ms="3592" started-at="2019-04-16T15:10:32Z" finished-at="2019-04-16T15:10:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteCartTest -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="CloseBrowser" is-config="true" duration-ms="2314" started-at="2019-04-01T10:52:27Z" finished-at="2019-04-01T10:52:29Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Test.TestExecution@1e127982]" name="CloseBrowser" is-config="true" duration-ms="2320" started-at="2019-04-16T15:10:35Z" finished-at="2019-04-16T15:10:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
